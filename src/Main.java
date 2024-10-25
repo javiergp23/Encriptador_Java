@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         Encriptador encriptador = new Encriptador();
+        encriptador.setClave(432);
 
         String texto = "Hola Mundo";
         String textoEncriptado = encriptador.encriptar(texto);
